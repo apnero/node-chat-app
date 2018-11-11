@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node server/server.js",
+    "debug": "nodemon --inspect server/server.js",
     "test": "mocha server/**/*.test.js",
     "test-watch": "nodemon --exec npm test"
   },
@@ -18,6 +19,11 @@
     "socket.io": "^1.4.8"
   },
   "devDependencies": {
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1",
     "expect": "^1.20.2",
     "mocha": "^3.0.2"
   }
