@@ -8,12 +8,12 @@
         "browser": true,
         "es6": true,
         "jquery": true,
-        "mocha": true,
-        "moment": true
+        "mocha": true
     },
     "globals": {
         "io": false,
-        "moment": false
+        "moment": false,
+        "Mustache": true
     },
     "rules": {
         "no-unused-vars": [
